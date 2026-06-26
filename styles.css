@@ -64,7 +64,7 @@ body {
 /* ===== CAPA OCÉANO ===== */
 .ocean-plate {
   z-index: 1;
-  background-image: url("/solaria/images/trop-beach.webp");
+  background-image: url("/solaria/images/trop-beach.jpg");
   transform-origin: 50% 52%;
 }
 .ocean-plate::after {
@@ -79,7 +79,7 @@ body {
 .sand-reveal {
   z-index: 4;
   clip-path: var(--sand-clip);
-  background-image: url("/solaria/images/arena.webp");
+  background-image: url("/solaria/images/arena.jpg");
   transform: translateZ(0);
 }
 .sand-reveal::before {
